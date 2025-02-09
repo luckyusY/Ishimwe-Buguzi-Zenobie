@@ -1,14 +1,14 @@
 /* Global Styles */
 :root {
     /* Modern color palette */
-    --primary-color: #000000;
-    --secondary-color: #333333;
-    --text-color: #000000;
-    --bg-color: #ffffff;
-    --accent-color: #666666;
-    --gradient-primary: linear-gradient(135deg, #000000, #333333);
-    --surface-color: #ffffff;
-    --muted-color: #666666;
+    --primary-color: #007bff; /* Kept same as it matches */
+    --secondary-color: #333333; /* Kept same as it matches */
+    --text-color: #333333; /* Kept same as it matches */
+    --bg-color: #f0f4f8; /* Kept same as it matches */
+    --accent-color: #007bff; /* Changed to match index.html */
+    --gradient-primary: linear-gradient(135deg, #007bff, #007bff); /* Changed to match index.html */
+    --surface-color: #ffffff; /* Kept same as it matches */
+    --muted-color: #666666; /* Kept same as it matches */
     
     /* Enhanced shadows */
     --shadow-sm: 0 2px 4px rgba(0, 0, 0, 0.06);
