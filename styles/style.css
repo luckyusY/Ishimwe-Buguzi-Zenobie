@@ -1,14 +1,14 @@
 /* Global Styles */
 :root {
     /* Modern color palette */
-    --primary-color: #007bff; /* Kept same as it matches */
-    --secondary-color: #333333; /* Kept same as it matches */
-    --text-color: #333333; /* Kept same as it matches */
-    --bg-color: #f0f4f8; /* Kept same as it matches */
-    --accent-color: #007bff; /* Changed to match index.html */
-    --gradient-primary: linear-gradient(135deg, #007bff, #007bff); /* Changed to match index.html */
+    --primary-color: #4a90e2; /* Updated primary color */
+    --secondary-color: #2c3e50; /* Updated secondary color */
+    --text-color: #2c3e50; /* Updated text color */
+    --bg-color: #ecf0f1; /* Updated background color */
+    --accent-color: #e74c3c; /* Updated accent color */
+    --gradient-primary: linear-gradient(135deg, #4a90e2, #e74c3c); /* Updated gradient */
     --surface-color: #ffffff; /* Kept same as it matches */
-    --muted-color: #666666; /* Kept same as it matches */
+    --muted-color: #95a5a6; /* Updated muted color */
     
     /* Enhanced shadows */
     --shadow-sm: 0 2px 4px rgba(0, 0, 0, 0.06);
@@ -27,7 +27,7 @@
 }
 
 body {
-    font-family: 'Poppins', system-ui, -apple-system, sans-serif;
+    font-family: 'Roboto', system-ui, -apple-system, sans-serif; /* Updated font family */
     margin: 0;
     padding: 0;
     background-color: var(--bg-color);
